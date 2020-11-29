@@ -2,9 +2,7 @@ package me.zhulin.shopapi.enums;
 
 import lombok.Getter;
 
-/**
- * Created By Zhu Lin on 3/10/2018.
- */
+
 
 @Getter
 public enum ResultEnum  {
@@ -34,5 +32,13 @@ public enum ResultEnum  {
     ResultEnum(Integer code, String message) {
         this.code = code;
         this.message = message;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public Integer getCode() {
+        return code;
     }
 }

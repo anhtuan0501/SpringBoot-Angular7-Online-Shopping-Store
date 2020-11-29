@@ -5,10 +5,6 @@ import me.zhulin.shopapi.entity.OrderMain;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-/**
- * Created By Zhu Lin on 3/14/2018.
- */
-
 public interface OrderService {
     Page<OrderMain> findAll(Pageable pageable);
 

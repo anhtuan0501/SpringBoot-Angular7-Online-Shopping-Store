@@ -1,7 +1,7 @@
 -- the order of values is related to the name of field.
 -- Updating is necessary, if the name is changed
 
-
+use demo;
 
 INSERT INTO order_main VALUES (2147483643, '3100 Western Road A', 'customer2@email.com', 'customer2', '2343456', '2018-03-15 12:52:20.439', 100.00, 0, '2018-03-15 12:52:20.439');
 INSERT INTO order_main VALUES (2147483645, '3100 Western Road A', 'customer2@email.com', 'customer2', '2343456', '2018-03-15 12:52:29.007', 4.00, 0, '2018-03-15 12:52:29.007');
